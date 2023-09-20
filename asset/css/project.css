@@ -1,0 +1,105 @@
+.okay{
+    justify-content: space-evenly;
+}
+.one{
+    justify-content: end;
+}
+.card{
+    border: 1px solid white;
+}
+.blog{
+    justify-content: center;
+    align-items: center;
+}
+#first{
+    font-size: large;
+}
+#portfolio{
+    font-size: medium;
+}
+
+.icons{
+    justify-content: center;
+    align-items: center;
+}
+.footer{
+    display: flex;
+    flex-direction: row;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    
+}
+h4{
+    justify-content: center;
+    align-items: center;
+    font-family: serif;
+    font-weight: bolder;
+
+}
+h3{
+    justify-content:center;
+    align-items: center;
+    font-family: serif;
+    font-weight: bold;
+    color: white;
+}
+p{
+    font-family: serif;
+    font-size: large;
+    text-overflow: clip;
+    text-shadow:0cqi;
+}
+.navbar{
+    font-family: serif;
+    font-size: large;
+    text-overflow: clip;
+    text-shadow:0cqi;
+}
+
+.row .card{
+    box-shadow: 5px 5px rgb(218, 212, 212);
+}
+label{
+
+    font-family: serif;
+    font-size: large;
+    text-shadow:0cqi;
+}
+body{
+    background-color:black;
+}
+.card{
+    background-color:white;
+    border: 1px solid white(124, 120, 126);
+    color: black;
+    padding: 5px;
+}
+#wedding,#couple{
+    display: flex;
+    flex-direction: row;
+}
+.animation{
+    position: relative;
+    animation-name: box1;
+    animation-duration: 100s;
+    top: 20px;
+}
+@keyframes box1{
+    0%{top:20px; bottom:20px;}
+    25%{top:100px; bottom:20px;}  
+    50%{top:20px; bottom:20px;}  
+    75%{top:100px; bottom:20px;}  
+
+
+}
+.contact{
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    font-family: serif;
+    font-size: larger;
+    font-weight: bold;
+}
